@@ -5,14 +5,7 @@
 }
 
 body {
-    background-color: rgb(247, 253, 255);
-}
-
-
-.top-header {
-    margin: 20px;
-    background-color: rgb(84, 216, 187);
-    
+    background-color: rgb(112, 164, 182);
 }
 
 nav {
@@ -20,7 +13,30 @@ nav {
     background-color: rgb(253, 209, 151);
     justify-content: space-around;
     align-items: center;
+    padding-right: 80px;
 }
+
+.top-header {
+    padding: 5px 5px 5px 40px;
+    margin: 20px 600px 20px -27px;
+    background-color: rgb(110, 206, 185);
+    font-size: 32px;
+    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
+}
+
+.AB {
+    display: flex;
+    justify-content: flex-end;
+    /* flex-direction: column; */
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+
+} */
 
 .hero {
     height: 250px;
@@ -30,8 +46,13 @@ nav {
     background-image: url("../images/calming-background-image.avif");
 }
 
-footer {
+.working {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    flex: 1 0 200px;
 }
+
