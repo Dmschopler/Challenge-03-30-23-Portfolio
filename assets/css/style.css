@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(247, 253, 255);
+}
+
+
+.top-header {
+    margin: 20px;
+    background-color: rgb(84, 216, 187);
+    
+}
+
+nav {
+    display: flex;
+    background-color: rgb(253, 209, 151);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero {
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/calming-background-image.avif");
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
