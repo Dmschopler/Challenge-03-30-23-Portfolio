@@ -1,11 +1,7 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     background-color: rgb(112, 164, 182);
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -15,6 +11,10 @@ nav {
     align-items: center;
     padding-right: 80px;
 }
+
+/* p {
+    flex-wrap: wrap;
+} */
 
 .top-header {
     padding: 5px 5px 5px 40px;
@@ -29,27 +29,37 @@ nav {
     justify-content: space-around;
 }
 
+.section-content {
+    width: 80%;
+}
+
 .AB {
     display: flex;
-    justify-content: space-around;
-    /* flex-direction: column; */
+    /* justify-content: space-around; */
+}
+
+.row-item-large {
+    flex: 2 0 100%;
+}
+
+img {
+    width: 33%;
+}
+
+.row-item {
+    flex: 0 0 20%;
 }
 
 .section-name{
     border-right: 10px solid black;
+    width: 20%;
 }
-
-/* main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 10px;
-
-} */
 
 .hero {
     height: 250px;
     width: 100%;
+    margin: 0;
+    padding: 0;
     background-position: center;
     background-size: cover;
     background-image: url("../images/calming-background-image.avif");
