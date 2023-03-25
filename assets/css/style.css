@@ -24,10 +24,19 @@ nav {
     font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
 .AB {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     /* flex-direction: column; */
+}
+
+.section-name{
+    border-right: 10px solid black;
 }
 
 /* main {
@@ -46,13 +55,4 @@ nav {
     background-image: url("../images/calming-background-image.avif");
 }
 
-.working {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border-style: solid;
-    border-width: 3px;
-    padding: 10px;
-    flex: 1 0 200px;
-}
 
