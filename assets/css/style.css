@@ -17,8 +17,8 @@ nav {
 } */
 
 .top-header {
-    padding: 5px 5px 5px 40px;
-    margin: 20px 600px 20px -27px;
+    /* padding: 5px 5px 5px 40px; */
+    /* margin: 20px 600px 20px -27px; */
     background-color: rgb(110, 206, 185);
     font-size: 32px;
     font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
@@ -30,29 +30,34 @@ nav {
 }
 
 .section-content {
-    width: 80%;
+    width: 100%;
 }
 
 .AB {
     display: flex;
-    /* justify-content: space-around; */
 }
 
 .row-item-large {
-    flex: 2 0 100%;
 }
 
 img {
-    width: 33%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid black;
 }
 
 .row-item {
-    flex: 0 0 20%;
+    /* flex: 0 0 20%; */
+    /* justify-content: center; */
+    text-align: center;
 }
 
 .section-name{
-    border-right: 10px solid black;
-    width: 20%;
+    text-align: right;
+    border-right: 3px solid black;
+    width: 10%;
+    padding-right: 10px;
+
 }
 
 .hero {
