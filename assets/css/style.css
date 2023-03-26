@@ -6,56 +6,11 @@ body {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(253, 209, 151);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-right: 80px;
-}
-
-/* p {
-    flex-wrap: wrap;
-} */
-
-.top-header {
-    /* padding: 5px 5px 5px 40px; */
-    /* margin: 20px 600px 20px -27px; */
-    background-color: rgb(110, 206, 185);
-    font-size: 32px;
-    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
-}
-
-.row {
-    display: flex;
-    justify-content: space-around;
-}
-
-.section-content {
-    width: 100%;
-}
-
-.AB {
-    display: flex;
-}
-
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    border: 5px solid black;
-}
-
-.row-item {
-    /* flex: 0 0 20%; */
-    /* justify-content: center; */
-    text-align: center;
-}
-
-.section-name{
-    text-align: right;
-    border-right: 3px solid black;
-    width: 10%;
-    padding-right: 10px;
-
 }
 
 .hero {
@@ -67,5 +22,57 @@ img {
     background-size: cover;
     background-image: url("../images/calming-background-image.avif");
 }
+
+a {
+    text-decoration: none;
+    margin: 25px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
+}
+
+a:hover {
+    transition: background 2s;
+    background-color: rgb(235, 39, 39);
+    color: white;
+}
+
+.top-header {
+    background-color: rgb(110, 206, 185);
+    font-size: 32px;
+    padding-left: 20px;
+    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section-content {
+    width: 100%;
+    padding: 40px;
+}
+
+.AB {
+    display: flex;
+}
+
+
+img {
+    max-width: 100%;
+    border: 5px solid black;
+}
+
+.section-name{
+    text-align: right;
+    border-right: 3px solid black;
+    width: 30%;
+    padding: 0 10px 0 50px;
+    font-size: 2.5rem;
+}
+
 
 
