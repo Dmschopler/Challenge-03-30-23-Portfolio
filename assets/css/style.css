@@ -23,7 +23,14 @@ nav {
     background-image: url("../images/calming-background-image.avif");
 }
 
-a {
+.top-header {
+    background-color: rgb(110, 206, 185);
+    font-size: 32px;
+    padding-left: 20px;
+    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
+}
+
+.border-links {
     text-decoration: none;
     margin: 25px;
     padding: 5px;
@@ -32,17 +39,19 @@ a {
     font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
 }
 
-a:hover {
+.border-links:hover {
     transition: background 2s;
     background-color: rgb(235, 39, 39);
     color: white;
 }
 
-.top-header {
-    background-color: rgb(110, 206, 185);
-    font-size: 32px;
-    padding-left: 20px;
-    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
+.AB {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .section-name{
@@ -62,6 +71,32 @@ a:hover {
 .row-item {
     position: relative;
     margin: 20px;
+    opacity: 80%;
+}
+
+.row-item:hover {
+    opacity: 100%;
+}
+
+.image-text-bg {
+    position: absolute;
+    bottom: 15%;
+    left: 5px;
+    background-color: rgb(26, 248, 248);
+    padding: 10px;
+}
+
+.large-image-text {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.small-image-text {
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left;
 }
 
 .section-content {
@@ -77,15 +112,6 @@ a:hover {
     align-items: center;
     padding: 20px;
     justify-content: space-around;
-}
-
-.AB {
-    display: flex;
-}
-
-img {
-    max-width: 100%;
-    border: 5px solid black;
 }
 
 
