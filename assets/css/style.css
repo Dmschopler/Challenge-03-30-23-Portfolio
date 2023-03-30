@@ -6,7 +6,6 @@ body {
 
 nav {
     display: flex;
-    /* flex-wrap: wrap; */
     background-color: rgb(253, 209, 151);
     align-items: center;
 }
@@ -89,6 +88,7 @@ img {
     position: relative;
     margin: 2%;
     opacity: 80%;
+    width: 100%;
 }
 
 .row-item:hover {
@@ -127,7 +127,13 @@ img {
 @media only screen and (max-width: 768px) {
     * {
         flex-wrap: wrap;
+    }
+
+    .AB {
+        justify-content: space-around;
+    }
+
+    .border-content {
         flex-direction: column;
     }
- 
 }
