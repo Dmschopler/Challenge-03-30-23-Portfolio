@@ -1,37 +1,139 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
-    background-color: rgb(247, 253, 255);
-}
-
-
-.top-header {
-    margin: 20px;
-    background-color: rgb(84, 216, 187);
-    
+    background-color: rgb(112, 164, 182);
+    margin: 0;
+    padding: 0;
 }
 
 nav {
     display: flex;
     background-color: rgb(253, 209, 151);
-    justify-content: space-around;
     align-items: center;
+}
+
+.top-header {
+    background-color: rgb(110, 206, 185);
+    font-size: 32px;
+    padding-left: 2%;
+    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
+}
+
+.border-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2%;
+    justify-content: space-around;
+}
+
+.border-links {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Copperplate Gothic Light', Verdana, sans-serif;
+}
+
+.border-links:hover {
+    transition: background 2s;
+    padding: 3px;
+    background-color: rgb(235, 39, 39);
+    color: white;
 }
 
 .hero {
     height: 250px;
     width: 100%;
+    margin: 0;
+    padding: 0;
     background-position: center;
     background-size: cover;
     background-image: url("../images/calming-background-image.avif");
 }
 
-footer {
+.image-text-hero {
+    position: relative;
+    top: 60%;
+    padding: 10px;
+}
+
+.hero-image-text {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-right: 5%;
+}
+
+.AB {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    min-height: 100%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.section-name {
+    text-align: right;
+    border-right: 3px solid black;
+    width: 20%;
+    padding: 0 1% 0 3%;
+    font-size: 2.5rem;
+}
+
+.row {
+    display: flex;
+}
+
+.row-item {
+    position: relative;
+    margin: 2%;
+    opacity: 80%;
+    width: 100%;
+}
+
+.row-item:hover {
+    opacity: 100%;
+}
+
+.image-text-bg {
+    position: absolute;
+    bottom: 15%;
+    left: 5px;
+    background-color: rgb(26, 248, 248);
+    padding: 10px;
+}
+
+.large-image-text {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.small-image-text {
+    padding-top: 10px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2%;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+    * {
+        flex-wrap: wrap;
+    }
+
+    .AB {
+        justify-content: space-around;
+    }
+
+    .border-content {
+        flex-direction: column;
+    }
 }
