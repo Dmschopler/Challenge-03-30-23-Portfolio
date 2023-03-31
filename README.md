@@ -6,4 +6,4 @@ This website was created to give employers an idea of the quality of worker they
 ![Alt text](assets/images/screenshot-of-webpage.png)
 ## URL of Deployed Link
 
-file:///C:/Users/dmsch/bootcamp/sandbox/Challenge-03-30-23-Portfolio/index.html
+https://dmschopler.github.io/Portfolio-Home-Page-3-30-23/
